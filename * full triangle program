@@ -1,0 +1,9 @@
+m=int(input("enter number :"))
+for i in range(0,m+1):
+    for j in range(0,i+1):
+        print("*",end=" ")
+    print()
+for i in range(0,m):
+    for j in range(0,m-i):
+        print("*",end=" ")
+    print()
