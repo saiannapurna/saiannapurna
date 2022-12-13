@@ -1,0 +1,9 @@
+#changing of list into a string
+line = input()
+print(line)
+result=line.split(" ")
+print(result)
+print(type(result))
+r="-".join(result)
+print(r)
+print(type(r))
