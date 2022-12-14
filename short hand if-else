@@ -1,0 +1,3 @@
+##short hand if-else
+x=int(input())
+print("won the match")if(x>=6) else print("lose")
