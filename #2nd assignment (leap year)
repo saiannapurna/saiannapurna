@@ -1,0 +1,13 @@
+#2nd assignment (leap year)
+n=int(input())
+flag=0
+if(n%4==0 and n%100!=0):
+    flag=1
+elif(n%400==0):
+    flag=10
+else:
+        flag=0
+if(flag==1):
+    print("it is a leap year")
+else:
+    print("it is not a leap year")
