@@ -1,0 +1,16 @@
+#13 assignment(duplicate or unique list)
+n=int(input("enter the list"))
+h=list(map(int,input().split()))
+flag=0
+print("the list is",h)
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if(h[i]==h[j]):
+            flag=1
+if(flag==1):
+    print("duplicate")
+else:
+    print("unique")
+  
+  
+  
