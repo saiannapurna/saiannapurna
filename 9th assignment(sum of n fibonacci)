@@ -1,0 +1,15 @@
+#9th (sum of n fibonacci)
+n=int(input())
+a=-1
+b=1
+f=0
+print("the series are : ")
+for i in range(n):
+    c=a+b
+    print(c,end=" ")
+    f=f+c
+    a=b
+    b=c
+print()
+print("sum of given series is",f)    
+    
