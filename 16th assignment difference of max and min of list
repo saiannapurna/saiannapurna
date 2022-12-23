@@ -1,0 +1,12 @@
+#16th assignment difference of max and min of list
+n=int(input("enter list size : "))
+l=list(map(int,input().split()))
+max=l[0]
+min=l[0]
+for i in range(1,n):
+    if(l[i]>max):
+        max=l[i]
+    elif(l[i]<min):
+        min=l[i]
+print("max and min of list",max,min,end=" ")
+print("\ndifference of max and min is",max-min)
