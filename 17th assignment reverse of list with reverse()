@@ -1,0 +1,6 @@
+#17th assignment reverse of list with reverse()
+print("enter the elements in list : ")
+l=list(map(int,input().split()))
+print(l)
+l.reverse()
+print(l)
