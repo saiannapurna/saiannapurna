@@ -1,0 +1,21 @@
+#4th assignment max and min digit in a number
+n=int(input())
+temp=0
+p=n
+j=p%10
+h=p//10
+min=j
+#for max digit in number
+while(n>0):
+    m=n%10
+    if(m>temp):
+        temp=m
+    n=n//10
+#for min digit in number
+while(h>0):
+    u=h%10
+    if(u<min):
+        min=u
+    h=h//10
+print("biggest digit is",temp)
+print("smallest digit is",min)
