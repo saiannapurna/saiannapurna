@@ -1,0 +1,5 @@
+#calendar prints the year
+import calendar
+y=int(input())
+x=calendar.calendar(y)
+print(x)
