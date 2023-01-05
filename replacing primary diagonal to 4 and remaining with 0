@@ -1,0 +1,23 @@
+#replacing primary diagonal to 4 and remaining with 0
+
+
+n=int(input())
+m=int(input())
+k=4
+l=[]
+for i in range(n):
+    t=[]
+    for j in range(m):
+        x=int(input())
+        t.append(x)
+    l.append(t)
+for i in l :
+    print("matrix is",i)
+for i in range(n):
+    for j in range(m):
+        if(i==j):
+            l[i][j]=k
+        else:
+            l[i][j]=0
+for i in l:
+    print(i)
